@@ -1,0 +1,154 @@
+{
+  "app": {
+    "title": "语音视频控制器",
+    "subtitle": "用语音控制您的视频"
+  },
+  "controls": {
+    "playback": "播放控制",
+    "play": "播放",
+    "pause": "暂停",
+    "stop": "停止",
+    "next": "下一个视频",
+    "previous": "上一个视频",
+    "replay": "重新播放",
+    "progress": "进度控制",
+    "forward10": "快进 10 秒",
+    "forward20": "快进 20 秒",
+    "forward30": "快进 30 秒",
+    "backward10": "后退 10 秒",
+    "backward20": "后退 20 秒",
+    "backward30": "后退 30 秒",
+    "volume": "音量控制",
+    "volumeMax": "音量最大",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "volumeUp": "音量增加",
+    "volumeDown": "音量减小",
+    "speed": "播放速度",
+    "speed05": "0.5 倍速",
+    "speed10": "正常速度",
+    "speed125": "1.25 倍速",
+    "speed15": "1.5 倍速",
+    "screen": "屏幕控制",
+    "fullscreen": "进入全屏",
+    "exitFullscreen": "退出全屏"
+  },
+  "voice": {
+    "listening": "聆听中...",
+    "processing": "处理中...",
+    "tapToSpeak": "点击说话",
+    "lastCommand": "最后命令",
+    "recognized": "识别到：{{command}}",
+    "error": "语音识别错误",
+    "notSupported": "不支持语音识别",
+    "siriIntegration": "Siri集成可用",
+    "alwaysListen": "始终监听",
+    "tapToEnable": "点击启用",
+    "starting": "启动中...",
+    "voiceCommandsActive": "语音命令已激活",
+    "tapToGiveCommand": "点击发出语音命令",
+    "loadVideoFirst": "请先加载视频，然后使用语音命令"
+  },
+  "video": {
+    "selectVideo": "选择视频",
+    "loadFromUrl": "从网址加载",
+    "enterUrl": "输入视频网址",
+    "noVideo": "尚未加载视频",
+    "loading": "加载视频中...",
+    "error": "加载视频错误"
+  },
+  "settings": {
+    "language": "语言",
+    "customCommands": "自定义指令",
+    "about": "关于"
+  },
+  "notifications": {
+    "playing": "正在播放视频",
+    "paused": "视频已暂停",
+    "volumeChanged": "音量：{{level}}%",
+    "speedChanged": "速度：{{speed}}x",
+    "commandExecuted": "执行指令：{{command}}"
+  },
+  "membership": {
+    "freeTrial": "免费试用",
+    "free": "免费",
+    "basic": "基础",
+    "premium": "高级",
+    "dailyUsage": "每日使用",
+    "totalUsage": "总使用量",
+    "status": "状态",
+    "unlimited": "无限制",
+    "upgradePrompt": "升级获得更多功能",
+    "upgradeBasic": "基础",
+    "upgradePremium": "高级",
+    "limitReached": "已达使用限制",
+    "upgradeRequired": "请升级会员以继续使用",
+    "premiumRequired": "需要高级会员",
+    "extendedSourcesRequireMembership": "扩展视频源需要付费会员",
+    "tier": {
+      "free_trial": "免费试用",
+      "free": "免费",
+      "basic": "基础",
+      "premium": "高级"
+    },
+    "features": {
+      "allSources": "支持所有视频源",
+      "voiceControl": "语音控制已启用",
+      "unlimitedUsage": "无限制使用",
+      "dailyBonus": "每日登录奖励"
+    },
+    "limits": {
+      "daily": "每日限制",
+      "monthly": "每月限制",
+      "total": "总限制",
+      "remaining": "剩余",
+      "used": "已使用"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "ok": "确定",
+    "upgrade": "升级",
+    "active": "活跃",
+    "inactive": "非活跃",
+    "alwaysListening": "始终监听语音指令...",
+    "voiceCommandsWorkAfterVideo": "语音指令在加载视频后工作"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "全面视频源测试结果",
+    "totalTested": "总测试数：{{count}} 个网址",
+    "supportedFormats": "支持格式：",
+    "directVideos": "直接视频：{{count}}",
+    "streaming": "流媒体：{{count}}",
+    "videoPlatforms": "视频平台：{{count}}",
+    "extendedSupport": "扩展支持：",
+    "adultPlatforms": "成人平台：{{count}}",
+    "socialMedia": "社交媒体：{{count}}",
+    "international": "国际平台：{{count}}",
+    "unsupported": "不支持：{{count}}",
+    "checkConsoleForDetails": "查看控制台以获取每个平台的详细分析。",
+    "viewConsole": "查看控制台",
+    "testDirectMP4": "测试直接 MP4",
+    "testHLSStream": "测试 HLS 流",
+    "testExtendedPlatform": "测试扩展平台"
+  },
+  "errors": {
+    "errorSelectingVideo": "选择视频错误",
+    "unsupportedVideoSource": "不支持的视频源：未知视频源或格式不支持",
+    "chooseVideoToGetStarted": "选择视频以开始语音控制"
+  },
+  "urlDialog": {
+    "loadFromUrl": "从网址加载",
+    "enterVideoUrl": "输入视频网址",
+    "videoUrl": "视频网址",
+    "exampleFormats": "示例格式：",
+    "directMP4": "直接 MP4：https://example.com/video.mp4",
+    "hlsStream": "HLS 流：https://example.com/playlist.m3u8",
+    "youtube": "YouTube：https://www.youtube.com/watch?v=...",
+    "vimeo": "Vimeo：https://vimeo.com/...",
+    "adultSites": "成人网站：https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "社交媒体：https://twitter.com/.../status/...",
+    "cancel": "取消",
+    "loadVideo": "加载视频"
+  }
+}

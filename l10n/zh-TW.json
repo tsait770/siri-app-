@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "語音影片控制器",
+    "subtitle": "用語音控制影片"
+  },
+  "controls": {
+    "playback": "播放控制",
+    "play": "播放",
+    "pause": "暫停",
+    "stop": "停止",
+    "next": "下一部影片",
+    "previous": "上一部影片",
+    "replay": "重新播放",
+    "progress": "進度控制",
+    "forward10": "快轉10秒",
+    "forward20": "快轉20秒",
+    "forward30": "快轉30秒",
+    "backward10": "倒轉10秒",
+    "backward20": "倒轉20秒",
+    "backward30": "倒轉30秒",
+    "volume": "音量控制",
+    "volumeMax": "音量最大",
+    "mute": "靜音",
+    "unmute": "解除靜音",
+    "volumeUp": "音量調高",
+    "volumeDown": "音量調低",
+    "speed": "播放速度",
+    "speed05": "0.5倍速",
+    "speed10": "正常速度",
+    "speed125": "1.25倍速",
+    "speed15": "1.5倍速",
+    "screen": "螢幕控制",
+    "fullscreen": "進入全螢幕",
+    "exitFullscreen": "離開全螢幕"
+  },
+  "voice": {
+    "listening": "聆聽中...",
+    "processing": "處理中...",
+    "tapToSpeak": "點擊說話",
+    "lastCommand": "最後指令",
+    "recognized": "識別到：{{command}}",
+    "error": "語音識別錯誤",
+    "notSupported": "不支援語音識別",
+    "siriIntegration": "Siri整合可用",
+    "alwaysListen": "始終監聽",
+    "tapToEnable": "點擊啟用",
+    "starting": "啟動中...",
+    "voiceCommandsActive": "語音指令已激活",
+    "tapToGiveCommand": "點擊發出語音指令",
+    "loadVideoFirst": "請先載入影片，然後使用語音指令"
+  },
+  "video": {
+    "selectVideo": "選擇影片",
+    "loadFromUrl": "從網址載入",
+    "enterUrl": "輸入影片網址",
+    "noVideo": "未載入影片",
+    "loading": "載入影片中...",
+    "error": "載入影片錯誤",
+    "sourceValidator": "影片來源驗證器",
+    "enterVideoUrl": "輸入影片網址進行驗證",
+    "validating": "驗證中...",
+    "enterUrlToValidate": "輸入網址以驗證來源",
+    "extendedSourceWarning": "此來源需要處理且可能有限制",
+    "unsupportedReason": "由於DRM保護，此平台不受支援",
+    "loadVideo": "載入影片",
+    "supportedFormats": "支援格式",
+    "unsupportedSource": "不支援此影片來源"
+  },
+  "settings": {
+    "language": "語言",
+    "customCommands": "自訂指令",
+    "about": "關於"
+  },
+  "notifications": {
+    "playing": "播放影片",
+    "paused": "影片已暫停",
+    "volumeChanged": "音量：{{level}}%",
+    "speedChanged": "速度：{{speed}}倍",
+    "commandExecuted": "已執行指令：{{command}}"
+  },
+  "membership": {
+    "freeTrial": "免費體驗",
+    "free": "免費會員",
+    "basic": "基礎會員",
+    "premium": "進階會員",
+    "dailyUsage": "每日使用",
+    "totalUsage": "總使用量",
+    "status": "狀態",
+    "unlimited": "無限制",
+    "upgradePrompt": "升級以獲得更多功能",
+    "upgradeBasic": "基礎會員",
+    "upgradePremium": "進階會員",
+    "limitReached": "已達使用限制",
+    "upgradeRequired": "請升級會員以繼續使用",
+    "premiumRequired": "需要進階會員",
+    "extendedSourcesRequireMembership": "擴展影片來源需要付費會員",
+    "tier": {
+      "free_trial": "免費體驗",
+      "free": "免費會員",
+      "basic": "基礎會員",
+      "premium": "進階會員"
+    },
+    "features": {
+      "allSources": "支援所有影片來源",
+      "voiceControl": "語音控制已啟用",
+      "unlimitedUsage": "無限制使用",
+      "dailyBonus": "每日登入獎勵"
+    },
+    "limits": {
+      "daily": "每日限制",
+      "monthly": "每月限制",
+      "total": "總限制",
+      "remaining": "剩餘",
+      "used": "已使用"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "ok": "確定",
+    "upgrade": "升級",
+    "active": "啟用",
+    "inactive": "停用",
+    "alwaysListening": "持續監聽語音指令中...",
+    "voiceCommandsWorkAfterVideo": "語音指令在載入影片後運作"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "全面影片來源測試結果",
+    "totalTested": "總測試數：{{count}} 個網址",
+    "supportedFormats": "支援格式：",
+    "directVideos": "直接影片：{{count}}",
+    "streaming": "串流：{{count}}",
+    "videoPlatforms": "影片平台：{{count}}",
+    "extendedSupport": "擴展支援：",
+    "adultPlatforms": "成人平台：{{count}}",
+    "socialMedia": "社群媒體：{{count}}",
+    "international": "國際平台：{{count}}",
+    "unsupported": "不支援：{{count}}",
+    "checkConsoleForDetails": "查看控制台以獲取每個平台的詳細分析。",
+    "viewConsole": "查看控制台",
+    "testDirectMP4": "測試直接 MP4",
+    "testHLSStream": "測試 HLS 串流",
+    "testExtendedPlatform": "測試擴展平台"
+  },
+  "errors": {
+    "errorSelectingVideo": "選擇影片錯誤",
+    "unsupportedVideoSource": "不支援的影片來源：未知影片來源或格式不支援",
+    "chooseVideoToGetStarted": "選擇影片以開始語音控制"
+  },
+  "urlDialog": {
+    "loadFromUrl": "從網址載入",
+    "enterVideoUrl": "輸入影片網址",
+    "videoUrl": "影片網址",
+    "exampleFormats": "範例格式：",
+    "directMP4": "直接 MP4：https://example.com/video.mp4",
+    "hlsStream": "HLS 串流：https://example.com/playlist.m3u8",
+    "youtube": "YouTube：https://www.youtube.com/watch?v=...",
+    "vimeo": "Vimeo：https://vimeo.com/...",
+    "adultSites": "成人網站：https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "社群媒體：https://twitter.com/.../status/...",
+    "cancel": "取消",
+    "loadVideo": "載入影片"
+  }
+}

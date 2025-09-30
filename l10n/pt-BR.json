@@ -1,0 +1,108 @@
+{
+  "app": {
+    "title": "Controlador de Vídeo por Voz",
+    "subtitle": "Controle vídeos com sua voz"
+  },
+  "controls": {
+    "playback": "Controles de Reprodução",
+    "play": "Reproduzir",
+    "pause": "Pausar",
+    "stop": "Parar",
+    "next": "Próximo Vídeo",
+    "previous": "Vídeo Anterior",
+    "replay": "Repetir",
+    "progress": "Controle de Progresso",
+    "forward10": "Avançar 10s",
+    "forward20": "Avançar 20s",
+    "forward30": "Avançar 30s",
+    "backward10": "Voltar 10s",
+    "backward20": "Voltar 20s",
+    "backward30": "Voltar 30s",
+    "volume": "Controle de Volume",
+    "volumeMax": "Volume Máximo",
+    "mute": "Silenciar",
+    "unmute": "Ativar Som",
+    "volumeUp": "Aumentar Volume",
+    "volumeDown": "Diminuir Volume",
+    "speed": "Velocidade de Reprodução",
+    "speed05": "Velocidade 0.5x",
+    "speed10": "Velocidade Normal",
+    "speed125": "Velocidade 1.25x",
+    "speed15": "Velocidade 1.5x",
+    "screen": "Controle de Tela",
+    "fullscreen": "Tela Cheia",
+    "exitFullscreen": "Sair da Tela Cheia"
+  },
+  "voice": {
+    "listening": "Ouvindo...",
+    "tapToSpeak": "Toque para falar",
+    "recognized": "Reconhecido: {{command}}",
+    "error": "Erro no reconhecimento de voz",
+    "notSupported": "Reconhecimento de voz não suportado"
+  },
+  "video": {
+    "selectVideo": "Selecionar vídeo",
+    "loadFromUrl": "Carregar da URL",
+    "enterUrl": "Digite a URL do vídeo",
+    "noVideo": "Nenhum vídeo carregado",
+    "loading": "Carregando vídeo...",
+    "error": "Erro ao carregar vídeo"
+  },
+  "settings": {
+    "language": "Idioma",
+    "customCommands": "Comandos Personalizados",
+    "about": "Sobre"
+  },
+  "notifications": {
+    "playing": "Reproduzindo vídeo",
+    "paused": "Vídeo pausado",
+    "volumeChanged": "Volume: {{level}}%",
+    "speedChanged": "Velocidade: {{speed}}x",
+    "commandExecuted": "Comando executado: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "Teste Gratuito",
+    "free": "Gratuito",
+    "basic": "Básico",
+    "premium": "Premium",
+    "dailyUsage": "Uso Diário",
+    "totalUsage": "Uso Total",
+    "status": "Status",
+    "unlimited": "Ilimitado",
+    "upgradePrompt": "Atualize para mais recursos",
+    "upgradeBasic": "Básico",
+    "upgradePremium": "Premium",
+    "limitReached": "Limite de Uso Atingido",
+    "upgradeRequired": "Por favor, atualize sua assinatura para continuar",
+    "premiumRequired": "Premium Necessário",
+    "extendedSourcesRequireMembership": "Fontes de vídeo estendidas requerem assinatura paga",
+    "tier": {
+      "free_trial": "Teste Gratuito",
+      "free": "Gratuito",
+      "basic": "Básico",
+      "premium": "Premium"
+    },
+    "features": {
+      "allSources": "Todas as fontes de vídeo suportadas",
+      "voiceControl": "Controle de voz habilitado",
+      "unlimitedUsage": "Uso ilimitado",
+      "dailyBonus": "Bônus de login diário"
+    },
+    "limits": {
+      "daily": "Limite diário",
+      "monthly": "Limite mensal",
+      "total": "Limite total",
+      "remaining": "Restante",
+      "used": "Usado"
+    }
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "upgrade": "Atualizar",
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "alwaysListening": "Sempre ouvindo comandos de voz...",
+    "voiceCommandsWorkAfterVideo": "Comandos de voz funcionam após carregar um vídeo"
+  }
+}

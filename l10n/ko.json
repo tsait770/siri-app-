@@ -1,0 +1,108 @@
+{
+  "app": {
+    "title": "음성 비디오 컨트롤러",
+    "subtitle": "음성으로 비디오 제어"
+  },
+  "controls": {
+    "playback": "재생 제어",
+    "play": "재생",
+    "pause": "일시정지",
+    "stop": "정지",
+    "next": "다음 비디오",
+    "previous": "이전 비디오",
+    "replay": "다시 재생",
+    "progress": "진행 제어",
+    "forward10": "10초 앞으로",
+    "forward20": "20초 앞으로",
+    "forward30": "30초 앞으로",
+    "backward10": "10초 뒤로",
+    "backward20": "20초 뒤로",
+    "backward30": "30초 뒤로",
+    "volume": "볼륨 제어",
+    "volumeMax": "최대 볼륨",
+    "mute": "음소거",
+    "unmute": "음소거 해제",
+    "volumeUp": "볼륨 높이기",
+    "volumeDown": "볼륨 낮추기",
+    "speed": "재생 속도",
+    "speed05": "0.5배속",
+    "speed10": "정상 속도",
+    "speed125": "1.25배속",
+    "speed15": "1.5배속",
+    "screen": "화면 제어",
+    "fullscreen": "전체 화면",
+    "exitFullscreen": "전체 화면 종료"
+  },
+  "voice": {
+    "listening": "듣는 중...",
+    "tapToSpeak": "탭하여 말하기",
+    "recognized": "인식됨: {{command}}",
+    "error": "음성 인식 오류",
+    "notSupported": "음성 인식이 지원되지 않습니다"
+  },
+  "video": {
+    "selectVideo": "비디오 선택",
+    "loadFromUrl": "URL에서 로드",
+    "enterUrl": "비디오 URL 입력",
+    "noVideo": "로드된 비디오 없음",
+    "loading": "비디오 로딩 중...",
+    "error": "비디오 로드 오류"
+  },
+  "settings": {
+    "language": "언어",
+    "customCommands": "사용자 정의 명령",
+    "about": "정보"
+  },
+  "notifications": {
+    "playing": "비디오 재생 중",
+    "paused": "비디오 일시정지",
+    "volumeChanged": "볼륨: {{level}}%",
+    "speedChanged": "속도: {{speed}}x",
+    "commandExecuted": "명령 실행: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "무료 체험",
+    "free": "무료",
+    "basic": "베이직",
+    "premium": "프리미엄",
+    "dailyUsage": "일일 사용량",
+    "totalUsage": "총 사용량",
+    "status": "상태",
+    "unlimited": "무제한",
+    "upgradePrompt": "더 많은 기능을 위해 업그레이드",
+    "upgradeBasic": "베이직",
+    "upgradePremium": "프리미엄",
+    "limitReached": "사용 한도 도달",
+    "upgradeRequired": "계속하려면 멤버십을 업그레이드하세요",
+    "premiumRequired": "프리미엄 필요",
+    "extendedSourcesRequireMembership": "확장 비디오 소스는 유료 멤버십이 필요합니다",
+    "tier": {
+      "free_trial": "무료 체험",
+      "free": "무료",
+      "basic": "베이직",
+      "premium": "프리미엄"
+    },
+    "features": {
+      "allSources": "모든 비디오 소스 지원",
+      "voiceControl": "음성 제어 활성화",
+      "unlimitedUsage": "무제한 사용",
+      "dailyBonus": "일일 로그인 보너스"
+    },
+    "limits": {
+      "daily": "일일 한도",
+      "monthly": "월간 한도",
+      "total": "총 한도",
+      "remaining": "남은",
+      "used": "사용됨"
+    }
+  },
+  "common": {
+    "cancel": "취소",
+    "ok": "확인",
+    "upgrade": "업그레이드",
+    "active": "활성",
+    "inactive": "비활성",
+    "alwaysListening": "항상 음성 명령을 듣고 있습니다...",
+    "voiceCommandsWorkAfterVideo": "음성 명령은 비디오 로드 후 작동합니다"
+  }
+}

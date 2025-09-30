@@ -1,0 +1,154 @@
+{
+  "app": {
+    "title": "متحكم الفيديو الصوتي",
+    "subtitle": "تحكم في الفيديو بصوتك"
+  },
+  "controls": {
+    "playback": "عناصر التحكم في التشغيل",
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "stop": "إيقاف",
+    "next": "الفيديو التالي",
+    "previous": "الفيديو السابق",
+    "replay": "إعادة تشغيل",
+    "progress": "التحكم في التقدم",
+    "forward10": "تقديم 10 ثواني",
+    "forward20": "تقديم 20 ثانية",
+    "forward30": "تقديم 30 ثانية",
+    "backward10": "إرجاع 10 ثواني",
+    "backward20": "إرجاع 20 ثانية",
+    "backward30": "إرجاع 30 ثانية",
+    "volume": "التحكم في الصوت",
+    "volumeMax": "أقصى صوت",
+    "mute": "كتم الصوت",
+    "unmute": "إلغاء كتم الصوت",
+    "volumeUp": "رفع الصوت",
+    "volumeDown": "خفض الصوت",
+    "speed": "سرعة التشغيل",
+    "speed05": "سرعة 0.5x",
+    "speed10": "السرعة العادية",
+    "speed125": "سرعة 1.25x",
+    "speed15": "سرعة 1.5x",
+    "screen": "التحكم في الشاشة",
+    "fullscreen": "ملء الشاشة",
+    "exitFullscreen": "الخروج من ملء الشاشة"
+  },
+  "voice": {
+    "listening": "جاري الاستماع...",
+    "processing": "جاري المعالجة...",
+    "tapToSpeak": "اضغط للتحدث",
+    "lastCommand": "آخر أمر",
+    "recognized": "تم التعرف: {{command}}",
+    "error": "خطأ في التعرف على الصوت",
+    "notSupported": "التعرف على الصوت غير مدعوم",
+    "siriIntegration": "تكامل Siri متاح",
+    "alwaysListen": "الاستماع دائماً",
+    "tapToEnable": "اضغط للتفعيل",
+    "starting": "جاري البدء...",
+    "voiceCommandsActive": "أوامر الصوت نشطة",
+    "tapToGiveCommand": "اضغط لإعطاء أمر صوتي",
+    "loadVideoFirst": "حمّل فيديو أولاً، ثم استخدم أوامر الصوت"
+  },
+  "video": {
+    "selectVideo": "اختر فيديو",
+    "loadFromUrl": "تحميل من رابط",
+    "enterUrl": "أدخل رابط الفيديو",
+    "noVideo": "لم يتم تحميل فيديو",
+    "loading": "جاري تحميل الفيديو...",
+    "error": "خطأ في تحميل الفيديو"
+  },
+  "settings": {
+    "language": "اللغة",
+    "customCommands": "أوامر مخصصة",
+    "about": "حول"
+  },
+  "notifications": {
+    "playing": "تشغيل الفيديو",
+    "paused": "الفيديو متوقف مؤقتاً",
+    "volumeChanged": "الصوت: {{level}}%",
+    "speedChanged": "السرعة: {{speed}}x",
+    "commandExecuted": "تم تنفيذ الأمر: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "تجربة مجانية",
+    "free": "مجاني",
+    "basic": "أساسي",
+    "premium": "مميز",
+    "dailyUsage": "الاستخدام اليومي",
+    "totalUsage": "إجمالي الاستخدام",
+    "status": "الحالة",
+    "unlimited": "غير محدود",
+    "upgradePrompt": "ترقية للحصول على المزيد من الميزات",
+    "upgradeBasic": "أساسي",
+    "upgradePremium": "مميز",
+    "limitReached": "تم الوصول لحد الاستخدام",
+    "upgradeRequired": "يرجى ترقية العضوية للمتابعة",
+    "premiumRequired": "مطلوب عضوية مميزة",
+    "extendedSourcesRequireMembership": "مصادر الفيديو الموسعة تتطلب عضوية مدفوعة",
+    "tier": {
+      "free_trial": "تجربة مجانية",
+      "free": "مجاني",
+      "basic": "أساسي",
+      "premium": "مميز"
+    },
+    "features": {
+      "allSources": "جميع مصادر الفيديو مدعومة",
+      "voiceControl": "التحكم الصوتي مفعل",
+      "unlimitedUsage": "استخدام غير محدود",
+      "dailyBonus": "مكافأة تسجيل الدخول اليومية"
+    },
+    "limits": {
+      "daily": "الحد اليومي",
+      "monthly": "الحد الشهري",
+      "total": "الحد الإجمالي",
+      "remaining": "المتبقي",
+      "used": "المستخدم"
+    }
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "upgrade": "ترقية",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "alwaysListening": "الاستماع دائماً لأوامر الصوت...",
+    "voiceCommandsWorkAfterVideo": "أوامر الصوت تعمل بعد تحميل فيديو"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "نتائج اختبار مصادر الفيديو الشاملة",
+    "totalTested": "إجمالي المختبر: {{count}} رابط",
+    "supportedFormats": "التنسيقات المدعومة:",
+    "directVideos": "الفيديوهات المباشرة: {{count}}",
+    "streaming": "البث المباشر: {{count}}",
+    "videoPlatforms": "منصات الفيديو: {{count}}",
+    "extendedSupport": "الدعم الموسع:",
+    "adultPlatforms": "المنصات للبالغين: {{count}}",
+    "socialMedia": "وسائل التواصل الاجتماعي: {{count}}",
+    "international": "المنصات الدولية: {{count}}",
+    "unsupported": "غير مدعوم: {{count}}",
+    "checkConsoleForDetails": "تحقق من وحدة التحكم للحصول على تفاصيل كل منصة.",
+    "viewConsole": "عرض وحدة التحكم",
+    "testDirectMP4": "اختبار MP4 مباشر",
+    "testHLSStream": "اختبار بث HLS",
+    "testExtendedPlatform": "اختبار منصة موسعة"
+  },
+  "errors": {
+    "errorSelectingVideo": "خطأ في اختيار الفيديو",
+    "unsupportedVideoSource": "مصدر فيديو غير مدعوم: مصدر فيديو غير معروف أو تنسيق غير مدعوم",
+    "chooseVideoToGetStarted": "اختر فيديو للبدء بالتحكم الصوتي"
+  },
+  "urlDialog": {
+    "loadFromUrl": "تحميل من رابط",
+    "enterVideoUrl": "أدخل رابط الفيديو",
+    "videoUrl": "رابط الفيديو",
+    "exampleFormats": "أمثلة على التنسيقات:",
+    "directMP4": "MP4 مباشر: https://example.com/video.mp4",
+    "hlsStream": "بث HLS: https://example.com/playlist.m3u8",
+    "youtube": "يوتيوب: https://www.youtube.com/watch?v=...",
+    "vimeo": "فيميو: https://vimeo.com/...",
+    "adultSites": "مواقع البالغين: https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "وسائل التواصل: https://twitter.com/.../status/...",
+    "cancel": "إلغاء",
+    "loadVideo": "تحميل الفيديو"
+  }
+}

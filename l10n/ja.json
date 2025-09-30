@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "音声ビデオコントローラー",
+    "subtitle": "音声でビデオを制御"
+  },
+  "controls": {
+    "playback": "再生コントロール",
+    "play": "再生",
+    "pause": "一時停止",
+    "stop": "停止",
+    "next": "次のビデオ",
+    "previous": "前のビデオ",
+    "replay": "リプレイ",
+    "progress": "進行コントロール",
+    "forward10": "10秒早送り",
+    "forward20": "20秒早送り",
+    "forward30": "30秒早送り",
+    "backward10": "10秒巻き戻し",
+    "backward20": "20秒巻き戻し",
+    "backward30": "30秒巻き戻し",
+    "volume": "音量コントロール",
+    "volumeMax": "最大音量",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "volumeUp": "音量を上げる",
+    "volumeDown": "音量を下げる",
+    "speed": "再生速度",
+    "speed05": "0.5倍速",
+    "speed10": "通常速度",
+    "speed125": "1.25倍速",
+    "speed15": "1.5倍速",
+    "screen": "画面コントロール",
+    "fullscreen": "フルスクリーン",
+    "exitFullscreen": "フルスクリーン終了"
+  },
+  "voice": {
+    "listening": "聞いています...",
+    "processing": "処理中...",
+    "tapToSpeak": "タップして話す",
+    "lastCommand": "最後のコマンド",
+    "recognized": "認識: {{command}}",
+    "error": "音声認識エラー",
+    "notSupported": "音声認識はサポートされていません",
+    "siriIntegration": "Siri連携が利用可能",
+    "alwaysListen": "常時リッスン",
+    "tapToEnable": "タップして有効化",
+    "starting": "開始中...",
+    "voiceCommandsActive": "音声コマンドが有効です",
+    "tapToGiveCommand": "タップして音声コマンド",
+    "loadVideoFirst": "まずビデオを読み込んでから音声コマンドを使用してください"
+  },
+  "video": {
+    "selectVideo": "ビデオを選択",
+    "loadFromUrl": "URLから読み込み",
+    "enterUrl": "ビデオURLを入力",
+    "noVideo": "ビデオが読み込まれていません",
+    "loading": "ビデオを読み込み中...",
+    "error": "ビデオの読み込みエラー",
+    "sourceValidator": "ビデオソース検証",
+    "enterVideoUrl": "検証するビデオURLを入力",
+    "validating": "検証中...",
+    "enterUrlToValidate": "ソースを検証するURLを入力",
+    "extendedSourceWarning": "このソースは処理が必要で制限がある場合があります",
+    "unsupportedReason": "DRM保護のためこのプラットフォームはサポートされていません",
+    "loadVideo": "ビデオを読み込む",
+    "supportedFormats": "対応フォーマット",
+    "unsupportedSource": "このビデオソースはサポートされていません"
+  },
+  "settings": {
+    "language": "言語",
+    "customCommands": "カスタムコマンド",
+    "about": "について"
+  },
+  "notifications": {
+    "playing": "ビデオを再生中",
+    "paused": "ビデオを一時停止",
+    "volumeChanged": "音量: {{level}}%",
+    "speedChanged": "速度: {{speed}}x",
+    "commandExecuted": "コマンド実行: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "無料トライアル",
+    "free": "無料",
+    "basic": "ベーシック",
+    "premium": "プレミアム",
+    "dailyUsage": "日次使用量",
+    "totalUsage": "総使用量",
+    "status": "ステータス",
+    "unlimited": "無制限",
+    "upgradePrompt": "より多くの機能のためにアップグレード",
+    "upgradeBasic": "ベーシック",
+    "upgradePremium": "プレミアム",
+    "limitReached": "使用制限に達しました",
+    "upgradeRequired": "続行するにはメンバーシップをアップグレードしてください",
+    "premiumRequired": "プレミアムが必要",
+    "extendedSourcesRequireMembership": "拡張ビデオソースには有料メンバーシップが必要です",
+    "tier": {
+      "free_trial": "無料トライアル",
+      "free": "無料",
+      "basic": "ベーシック",
+      "premium": "プレミアム"
+    },
+    "features": {
+      "allSources": "すべてのビデオソースをサポート",
+      "voiceControl": "音声制御が有効",
+      "unlimitedUsage": "無制限使用",
+      "dailyBonus": "毎日のログインボーナス"
+    },
+    "limits": {
+      "daily": "日次制限",
+      "monthly": "月次制限",
+      "total": "総制限",
+      "remaining": "残り",
+      "used": "使用済み"
+    }
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "ok": "OK",
+    "upgrade": "アップグレード",
+    "active": "アクティブ",
+    "inactive": "非アクティブ",
+    "alwaysListening": "常に音声コマンドを聞いています...",
+    "voiceCommandsWorkAfterVideo": "音声コマンドはビデオ読み込み後に動作します"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "包括的なビデオソース検証結果",
+    "totalTested": "合計テスト数: {{count}} 件",
+    "supportedFormats": "対応フォーマット:",
+    "directVideos": "直接ビデオ: {{count}}",
+    "streaming": "ストリーミング: {{count}}",
+    "videoPlatforms": "ビデオプラットフォーム: {{count}}",
+    "extendedSupport": "拡張サポート:",
+    "adultPlatforms": "アダルト: {{count}}",
+    "socialMedia": "ソーシャル: {{count}}",
+    "international": "海外プラットフォーム: {{count}}",
+    "unsupported": "非対応: {{count}}",
+    "checkConsoleForDetails": "詳細はコンソールをご確認ください。",
+    "viewConsole": "コンソールを見る",
+    "testDirectMP4": "MP4をテスト",
+    "testHLSStream": "HLSをテスト",
+    "testExtendedPlatform": "拡張プラットフォームをテスト"
+  },
+  "errors": {
+    "errorSelectingVideo": "ビデオ選択エラー",
+    "unsupportedVideoSource": "未対応のビデオソース: 不明なソースまたは未対応の形式",
+    "chooseVideoToGetStarted": "音声制御を開始するにはビデオを選択してください"
+  },
+  "urlDialog": {
+    "loadFromUrl": "URLから読み込み",
+    "enterVideoUrl": "ビデオURLを入力",
+    "videoUrl": "ビデオURL",
+    "exampleFormats": "例:",
+    "directMP4": "MP4 直接: https://example.com/video.mp4",
+    "hlsStream": "HLS ストリーム: https://example.com/playlist.m3u8",
+    "youtube": "YouTube: https://www.youtube.com/watch?v=...",
+    "vimeo": "Vimeo: https://vimeo.com/...",
+    "adultSites": "アダルト: https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "SNS: https://twitter.com/.../status/...",
+    "cancel": "キャンセル",
+    "loadVideo": "読み込み"
+  }
+}

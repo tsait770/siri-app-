@@ -1,0 +1,145 @@
+{
+  "app": {
+    "title": "Controlador de Video por Voz",
+    "subtitle": "Controla videos con tu voz"
+  },
+  "controls": {
+    "playback": "Controles de Reproducción",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "stop": "Detener",
+    "next": "Siguiente Video",
+    "previous": "Video Anterior",
+    "replay": "Repetir",
+    "progress": "Control de Progreso",
+    "forward10": "Adelantar 10s",
+    "forward20": "Adelantar 20s",
+    "forward30": "Adelantar 30s",
+    "backward10": "Retroceder 10s",
+    "backward20": "Retroceder 20s",
+    "backward30": "Retroceder 30s",
+    "volume": "Control de Volumen",
+    "volumeMax": "Volumen Máximo",
+    "mute": "Silenciar",
+    "unmute": "Activar Sonido",
+    "volumeUp": "Subir Volumen",
+    "volumeDown": "Bajar Volumen",
+    "speed": "Velocidad de Reproducción",
+    "speed05": "Velocidad 0.5x",
+    "speed10": "Velocidad Normal",
+    "speed125": "Velocidad 1.25x",
+    "speed15": "Velocidad 1.5x",
+    "screen": "Control de Pantalla",
+    "fullscreen": "Pantalla Completa",
+    "exitFullscreen": "Salir de Pantalla Completa"
+  },
+  "voice": {
+    "listening": "Escuchando...",
+    "tapToSpeak": "Toca para hablar",
+    "recognized": "Reconocido: {{command}}",
+    "error": "Error de reconocimiento de voz",
+    "notSupported": "Reconocimiento de voz no soportado"
+  },
+  "video": {
+    "selectVideo": "Seleccionar video",
+    "loadFromUrl": "Cargar desde URL",
+    "enterUrl": "Ingrese URL del video",
+    "noVideo": "No hay video cargado",
+    "loading": "Cargando video...",
+    "error": "Error al cargar video"
+  },
+  "settings": {
+    "language": "Idioma",
+    "customCommands": "Comandos Personalizados",
+    "about": "Acerca de"
+  },
+  "notifications": {
+    "playing": "Reproduciendo video",
+    "paused": "Video pausado",
+    "volumeChanged": "Volumen: {{level}}%",
+    "speedChanged": "Velocidad: {{speed}}x",
+    "commandExecuted": "Comando ejecutado: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "Prueba Gratuita",
+    "free": "Gratuito",
+    "basic": "Básico",
+    "premium": "Premium",
+    "dailyUsage": "Uso Diario",
+    "totalUsage": "Uso Total",
+    "status": "Estado",
+    "unlimited": "Ilimitado",
+    "upgradePrompt": "Actualizar para más funciones",
+    "upgradeBasic": "Básico",
+    "upgradePremium": "Premium",
+    "limitReached": "Límite de Uso Alcanzado",
+    "upgradeRequired": "Por favor actualice su membresía para continuar",
+    "premiumRequired": "Premium Requerido",
+    "extendedSourcesRequireMembership": "Las fuentes de video extendidas requieren membresía paga",
+    "tier": {
+      "free_trial": "Prueba Gratuita",
+      "free": "Gratuito",
+      "basic": "Básico",
+      "premium": "Premium"
+    },
+    "features": {
+      "allSources": "Todas las fuentes de video soportadas",
+      "voiceControl": "Control de voz habilitado",
+      "unlimitedUsage": "Uso ilimitado",
+      "dailyBonus": "Bono de inicio de sesión diario"
+    },
+    "limits": {
+      "daily": "Límite diario",
+      "monthly": "Límite mensual",
+      "total": "Límite total",
+      "remaining": "Restante",
+      "used": "Usado"
+    }
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "ok": "OK",
+    "upgrade": "Actualizar",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "alwaysListening": "Siempre escuchando comandos de voz...",
+    "voiceCommandsWorkAfterVideo": "Los comandos de voz funcionan después de cargar un video"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "Resultados Completos de Prueba de Fuentes de Video",
+    "totalTested": "TOTAL PROBADO: {{count}} URLs",
+    "supportedFormats": "FORMATOS SOPORTADOS:",
+    "directVideos": "Videos Directos: {{count}}",
+    "streaming": "Streaming: {{count}}",
+    "videoPlatforms": "Plataformas de Video: {{count}}",
+    "extendedSupport": "SOPORTE EXTENDIDO:",
+    "adultPlatforms": "Plataformas para Adultos: {{count}}",
+    "socialMedia": "Redes Sociales: {{count}}",
+    "international": "Internacional: {{count}}",
+    "unsupported": "NO SOPORTADO: {{count}}",
+    "checkConsoleForDetails": "Revisa la consola para un desglose detallado de cada plataforma.",
+    "viewConsole": "Ver Consola",
+    "testDirectMP4": "Probar MP4 Directo",
+    "testHLSStream": "Probar Stream HLS",
+    "testExtendedPlatform": "Probar Plataforma Extendida"
+  },
+  "errors": {
+    "errorSelectingVideo": "Error al Seleccionar Video",
+    "unsupportedVideoSource": "Fuente de video no soportada: Fuente de video desconocida o formato no soportado",
+    "chooseVideoToGetStarted": "Elige un video para comenzar con el control por voz"
+  },
+  "urlDialog": {
+    "loadFromUrl": "Cargar desde URL",
+    "enterVideoUrl": "Ingresa la URL del video",
+    "videoUrl": "URL del Video",
+    "exampleFormats": "Formatos de ejemplo:",
+    "directMP4": "MP4 Directo: https://example.com/video.mp4",
+    "hlsStream": "Stream HLS: https://example.com/playlist.m3u8",
+    "youtube": "YouTube: https://www.youtube.com/watch?v=...",
+    "vimeo": "Vimeo: https://vimeo.com/...",
+    "adultSites": "Sitios para Adultos: https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "Redes Sociales: https://twitter.com/.../status/...",
+    "cancel": "Cancelar",
+    "loadVideo": "Cargar Video"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "Voice Video Controller",
+    "subtitle": "Control videos with your voice"
+  },
+  "controls": {
+    "playback": "Playback Controls",
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "next": "Next Video",
+    "previous": "Previous Video",
+    "replay": "Replay",
+    "progress": "Progress Controls",
+    "forward10": "Forward 10s",
+    "forward20": "Forward 20s",
+    "forward30": "Forward 30s",
+    "backward10": "Backward 10s",
+    "backward20": "Backward 20s",
+    "backward30": "Backward 30s",
+    "volume": "Volume Controls",
+    "volumeMax": "Max Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "volumeUp": "Volume Up",
+    "volumeDown": "Volume Down",
+    "speed": "Playback Speed",
+    "speed05": "0.5x Speed",
+    "speed10": "Normal Speed",
+    "speed125": "1.25x Speed",
+    "speed15": "1.5x Speed",
+    "screen": "Screen Controls",
+    "fullscreen": "Enter Fullscreen",
+    "exitFullscreen": "Exit Fullscreen"
+  },
+  "voice": {
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "tapToSpeak": "Tap to speak",
+    "lastCommand": "Last command",
+    "recognized": "Recognized: {{command}}",
+    "error": "Voice recognition error",
+    "notSupported": "Voice recognition not supported",
+    "siriIntegration": "Siri Integration Available",
+    "alwaysListen": "Always Listen",
+    "tapToEnable": "Tap to enable",
+    "starting": "Starting...",
+    "voiceCommandsActive": "Voice commands are active",
+    "tapToGiveCommand": "Tap to give voice command",
+    "loadVideoFirst": "Load a video first, then use voice commands"
+  },
+  "video": {
+    "selectVideo": "Select a video",
+    "loadFromUrl": "Load from URL",
+    "enterUrl": "Enter video URL",
+    "noVideo": "No video loaded",
+    "loading": "Loading video...",
+    "error": "Error loading video",
+    "sourceValidator": "Video Source Validator",
+    "enterVideoUrl": "Enter video URL to validate",
+    "validating": "Validating...",
+    "enterUrlToValidate": "Enter URL to validate source",
+    "extendedSourceWarning": "This source requires processing and may have limitations",
+    "unsupportedReason": "This platform is not supported due to DRM protection",
+    "loadVideo": "Load Video",
+    "supportedFormats": "Supported Formats",
+    "unsupportedSource": "This video source is not supported"
+  },
+  "settings": {
+    "language": "Language",
+    "customCommands": "Custom Commands",
+    "about": "About"
+  },
+  "notifications": {
+    "playing": "Playing video",
+    "paused": "Video paused",
+    "volumeChanged": "Volume: {{level}}%",
+    "speedChanged": "Speed: {{speed}}x",
+    "commandExecuted": "Command executed: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "Free Trial",
+    "free": "Free",
+    "basic": "Basic",
+    "premium": "Premium",
+    "dailyUsage": "Daily Usage",
+    "totalUsage": "Total Usage",
+    "status": "Status",
+    "unlimited": "Unlimited",
+    "upgradePrompt": "Upgrade for more features",
+    "upgradeBasic": "Basic",
+    "upgradePremium": "Premium",
+    "limitReached": "Usage Limit Reached",
+    "upgradeRequired": "Please upgrade your membership to continue",
+    "premiumRequired": "Premium Required",
+    "extendedSourcesRequireMembership": "Extended video sources require a paid membership",
+    "tier": {
+      "free_trial": "Free Trial",
+      "free": "Free",
+      "basic": "Basic",
+      "premium": "Premium"
+    },
+    "features": {
+      "allSources": "All video sources supported",
+      "voiceControl": "Voice control enabled",
+      "unlimitedUsage": "Unlimited usage",
+      "dailyBonus": "Daily login bonus"
+    },
+    "limits": {
+      "daily": "Daily limit",
+      "monthly": "Monthly limit",
+      "total": "Total limit",
+      "remaining": "Remaining",
+      "used": "Used"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "upgrade": "Upgrade",
+    "active": "Active",
+    "inactive": "Inactive",
+    "alwaysListening": "Always listening for voice commands...",
+    "voiceCommandsWorkAfterVideo": "Voice commands work after loading a video"
+  },
+  "testing": {
+    "comprehensiveVideoSourceTestResults": "Comprehensive Video Source Test Results",
+    "totalTested": "TOTAL TESTED: {{count}} URLs",
+    "supportedFormats": "SUPPORTED FORMATS:",
+    "directVideos": "Direct Videos: {{count}}",
+    "streaming": "Streaming: {{count}}",
+    "videoPlatforms": "Video Platforms: {{count}}",
+    "extendedSupport": "EXTENDED SUPPORT:",
+    "adultPlatforms": "Adult Platforms: {{count}}",
+    "socialMedia": "Social Media: {{count}}",
+    "international": "International: {{count}}",
+    "unsupported": "UNSUPPORTED: {{count}}",
+    "checkConsoleForDetails": "Check console for detailed breakdown of each platform.",
+    "viewConsole": "View Console",
+    "testDirectMP4": "Test Direct MP4",
+    "testHLSStream": "Test HLS Stream",
+    "testExtendedPlatform": "Test Extended Platform"
+  },
+  "errors": {
+    "errorSelectingVideo": "Error Selecting Video",
+    "unsupportedVideoSource": "Unsupported video source: Unknown video source or format not supported",
+    "chooseVideoToGetStarted": "Choose a video to get started with voice control"
+  },
+  "urlDialog": {
+    "loadFromUrl": "Load from URL",
+    "enterVideoUrl": "Enter video URL",
+    "videoUrl": "Video URL",
+    "exampleFormats": "Example formats:",
+    "directMP4": "Direct MP4: https://example.com/video.mp4",
+    "hlsStream": "HLS Stream: https://example.com/playlist.m3u8",
+    "youtube": "YouTube: https://www.youtube.com/watch?v=...",
+    "vimeo": "Vimeo: https://vimeo.com/...",
+    "adultSites": "Adult Sites: https://pornhub.com/view_video.php?viewkey=...",
+    "socialMediaExample": "Social Media: https://twitter.com/.../status/...",
+    "cancel": "Cancel",
+    "loadVideo": "Load Video"
+  }
+}

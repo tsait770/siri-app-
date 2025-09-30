@@ -1,0 +1,108 @@
+{
+  "app": {
+    "title": "Sprach-Video-Controller",
+    "subtitle": "Steuern Sie Videos mit Ihrer Stimme"
+  },
+  "controls": {
+    "playback": "Wiedergabesteuerung",
+    "play": "Abspielen",
+    "pause": "Pause",
+    "stop": "Stopp",
+    "next": "Nächstes Video",
+    "previous": "Vorheriges Video",
+    "replay": "Wiederholen",
+    "progress": "Fortschrittssteuerung",
+    "forward10": "10s vorspulen",
+    "forward20": "20s vorspulen",
+    "forward30": "30s vorspulen",
+    "backward10": "10s zurückspulen",
+    "backward20": "20s zurückspulen",
+    "backward30": "30s zurückspulen",
+    "volume": "Lautstärkeregelung",
+    "volumeMax": "Maximale Lautstärke",
+    "mute": "Stummschalten",
+    "unmute": "Ton aktivieren",
+    "volumeUp": "Lauter",
+    "volumeDown": "Leiser",
+    "speed": "Wiedergabegeschwindigkeit",
+    "speed05": "0,5x Geschwindigkeit",
+    "speed10": "Normale Geschwindigkeit",
+    "speed125": "1,25x Geschwindigkeit",
+    "speed15": "1,5x Geschwindigkeit",
+    "screen": "Bildschirmsteuerung",
+    "fullscreen": "Vollbild",
+    "exitFullscreen": "Vollbild verlassen"
+  },
+  "voice": {
+    "listening": "Höre zu...",
+    "tapToSpeak": "Zum Sprechen tippen",
+    "recognized": "Erkannt: {{command}}",
+    "error": "Spracherkennungsfehler",
+    "notSupported": "Spracherkennung nicht unterstützt"
+  },
+  "video": {
+    "selectVideo": "Video auswählen",
+    "loadFromUrl": "Von URL laden",
+    "enterUrl": "Video-URL eingeben",
+    "noVideo": "Kein Video geladen",
+    "loading": "Video wird geladen...",
+    "error": "Fehler beim Laden des Videos"
+  },
+  "settings": {
+    "language": "Sprache",
+    "customCommands": "Benutzerdefinierte Befehle",
+    "about": "Über"
+  },
+  "notifications": {
+    "playing": "Video wird abgespielt",
+    "paused": "Video pausiert",
+    "volumeChanged": "Lautstärke: {{level}}%",
+    "speedChanged": "Geschwindigkeit: {{speed}}x",
+    "commandExecuted": "Befehl ausgeführt: {{command}}"
+  },
+  "membership": {
+    "freeTrial": "Kostenlose Testversion",
+    "free": "Kostenlos",
+    "basic": "Basic",
+    "premium": "Premium",
+    "dailyUsage": "Tägliche Nutzung",
+    "totalUsage": "Gesamtnutzung",
+    "status": "Status",
+    "unlimited": "Unbegrenzt",
+    "upgradePrompt": "Upgrade für mehr Funktionen",
+    "upgradeBasic": "Basic",
+    "upgradePremium": "Premium",
+    "limitReached": "Nutzungslimit erreicht",
+    "upgradeRequired": "Bitte upgraden Sie Ihre Mitgliedschaft, um fortzufahren",
+    "premiumRequired": "Premium erforderlich",
+    "extendedSourcesRequireMembership": "Erweiterte Video-Quellen erfordern eine kostenpflichtige Mitgliedschaft",
+    "tier": {
+      "free_trial": "Kostenlose Testversion",
+      "free": "Kostenlos",
+      "basic": "Basic",
+      "premium": "Premium"
+    },
+    "features": {
+      "allSources": "Alle Video-Quellen unterstützt",
+      "voiceControl": "Sprachsteuerung aktiviert",
+      "unlimitedUsage": "Unbegrenzte Nutzung",
+      "dailyBonus": "Täglicher Anmeldebonus"
+    },
+    "limits": {
+      "daily": "Tägliches Limit",
+      "monthly": "Monatliches Limit",
+      "total": "Gesamtlimit",
+      "remaining": "Verbleibend",
+      "used": "Verwendet"
+    }
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "upgrade": "Upgrade",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "alwaysListening": "Höre immer auf Sprachbefehle...",
+    "voiceCommandsWorkAfterVideo": "Sprachbefehle funktionieren nach dem Laden eines Videos"
+  }
+}
