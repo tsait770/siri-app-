@@ -15,7 +15,7 @@ export function useAudioLevel(): AudioLevelHookReturn {
   const mediaStreamRef = useRef<MediaStream | null>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
   const analyserRef = useRef<AnalyserNode | null>(null);
-  const dataArrayRef = useRef<Uint8Array | null>(null);
+  const dataArrayRef = useRef<Uint8Array<ArrayBuffer> | null>(null);
 
   const startDetection = useCallback(async () => {
     if (isDetecting) return;
@@ -47,7 +47,7 @@ export function useAudioLevel(): AudioLevelHookReturn {
         microphone.connect(analyser);
         
         const bufferLength = analyser.frequencyBinCount;
-        const dataArray = new Uint8Array(bufferLength);
+        const dataArray = new Uint8Array(bufferLength) as Uint8Array<ArrayBuffer>;
         dataArrayRef.current = dataArray;
         
         const updateAudioLevel = () => {
