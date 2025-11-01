@@ -282,6 +282,15 @@ export const [VoiceCommandProvider, useVoiceCommands] = createContextHook(() => 
       // Request microphone permission first on web
       if (Platform.OS === 'web') {
         try {
+          // Check if getUserMedia is available
+          if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            console.error('getUserMedia not supported');
+            setState(prev => ({ 
+              ...prev, 
+              error: 'Microphone access is not supported in this environment'
+            }));
+            return;
+          }
           await navigator.mediaDevices.getUserMedia({ audio: true });
           console.log('Microphone permission granted');
         } catch (error) {
@@ -305,6 +314,16 @@ export const [VoiceCommandProvider, useVoiceCommands] = createContextHook(() => 
         const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
         
         if (!SpeechRecognition) {
+          // Check if getUserMedia is available
+          if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            console.error('getUserMedia not supported');
+            setState(prev => ({ 
+              ...prev, 
+              error: 'Microphone access is not supported in this environment'
+            }));
+            return;
+          }
+          
           // Fallback to MediaRecorder for web
           const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
           const mediaRecorder = new MediaRecorder(stream);
@@ -346,17 +365,13 @@ export const [VoiceCommandProvider, useVoiceCommands] = createContextHook(() => 
           recognitionRef.current = recognition;
         }
       } else {
-        // Mobile: Use MediaRecorder fallback
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        const mediaRecorder = new MediaRecorder(stream);
-        audioChunksRef.current = [];
-
-        mediaRecorder.ondataavailable = (event) => {
-          audioChunksRef.current.push(event.data);
-        };
-
-        mediaRecorder.start();
-        mediaRecorderRef.current = mediaRecorder;
+        // Mobile: Not supported in React Native without additional setup
+        console.error('Recording not supported on mobile platform');
+        setState(prev => ({ 
+          ...prev, 
+          error: 'Voice recording is only supported on web platform'
+        }));
+        return;
       }
 
       setState(prev => ({ ...prev, isRecording: true, error: undefined }));
